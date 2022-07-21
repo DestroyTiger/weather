@@ -349,12 +349,37 @@ footer h3 {
     gap: 20px;
     justify-content: center;
 }
-@media (max-width:800px){
-    .list{
+
+@media (max-width:800px) {
+    .list {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-top: 75px;
         margin-bottom: 65px;
+    }
+}
+
+@media (max-width:400px) {
+    .iteamsShow {
+        height: 270px;
+        width: 250px;
+        justify-content: center;
+    }
+
+    button {
+        background-color: #0e9994c4;
+
+    }
+    header h3 {
+        max-width: 190px;
+        width: 170px;
+
+    }
+    .cantigadinfo>h3{
+        width: 71px;
+    }
+    main img{
+        margin-left: 20px;
     }
 }
