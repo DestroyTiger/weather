@@ -217,7 +217,7 @@ buttonSend.addEventListener("click", () => {
                 if (allInfo.name !== undefined) {
                     const showIteams = document.createElement("div");
                     showIteams.className = "iteamsShow";
-                    let cani = Math.floor(allInfo.main.temp), mincanti = Math.floor(allInfo.main.temp_min - Math.random() * 5), maxcanti =Math.floor( allInfo.main.temp_max + Math.random() * 10);
+                    let cani = Math.floor(allInfo.main.temp), mincanti = Math.floor(allInfo.main.temp_min - Math.random() * 5), maxcanti =Math.floor( allInfo.main.temp_max + Math.random() * 5);
                     showIteams.innerHTML = `<header>
                 <h3 title="${cityNameText}"><span class="showIteams" >${allInfo.name}</span></h3>
                 <div class="countryInfo showIteams"><span  title="${countryName}"><img src="https://openweathermap.org/images/flags/${allInfo.sys.country.toLowerCase()}.png"
