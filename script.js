@@ -213,7 +213,7 @@ buttonSend.addEventListener("click", () => {
         // console.log(weatherUrl);
         fetch(weatherUrl).then(res => res.json())
             .then(allInfo => {
-                console.log(allInfo);
+//                 console.log(allInfo);
                 if (allInfo.name !== undefined) {
                     const showIteams = document.createElement("div");
                     showIteams.className = "iteamsShow";
